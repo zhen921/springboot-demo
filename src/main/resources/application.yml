@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active:
+      - mariadb-dev
+
+server:
+  port: 8000
+  servlet:
+    context-path: /demo
+
+student:
+  name: wyw
+  age: 12
