@@ -1,19 +1,12 @@
-package com.example.demo.repository;
+package com.example.demo.database.repository;
 
-import com.example.demo.entity.User;
-import com.mysql.cj.x.protobuf.MysqlxCrud;
-import com.sun.javafx.scene.traversal.Direction;
+import com.example.demo.database.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.util.Assert;
 
-import javax.validation.constraints.Max;
-import java.io.Console;
 import java.util.Arrays;
 import java.util.List;
 

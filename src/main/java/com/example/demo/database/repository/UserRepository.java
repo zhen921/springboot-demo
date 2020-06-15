@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.example.demo.database.repository;
 
-import com.example.demo.entity.User;
+import com.example.demo.database.entity.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

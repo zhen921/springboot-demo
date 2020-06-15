@@ -1,6 +1,6 @@
-package com.example.demo.service;
+package com.example.demo.database.service;
 
-import com.example.demo.entity.User;
+import com.example.demo.database.entity.User;
 
 import java.util.List;
 
