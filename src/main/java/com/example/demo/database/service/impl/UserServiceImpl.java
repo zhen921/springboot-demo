@@ -1,8 +1,8 @@
-package com.example.demo.service.impl;
+package com.example.demo.database.service.impl;
 
-import com.example.demo.entity.User;
-import com.example.demo.repository.UserRepository;
-import com.example.demo.service.UserServiceInterface;
+import com.example.demo.database.entity.User;
+import com.example.demo.database.repository.UserRepository;
+import com.example.demo.database.service.UserServiceInterface;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 
