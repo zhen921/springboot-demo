@@ -5,6 +5,7 @@ import com.example.demo.database.repository.UserRepository;
 import com.example.demo.database.service.UserServiceInterface;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -14,6 +15,7 @@ import java.util.List;
  * @date 2020/4/25 15:29
  */
 @Slf4j
+@Service
 public class UserServiceImpl implements UserServiceInterface {
 
     @Autowired

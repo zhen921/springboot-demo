@@ -2,8 +2,19 @@ spring:
   profiles:
     active:
       - mariadb-dev
+  mail:
+    host: smtp.163.com
+    username: wangyuwei116@163.com
+    password: GTAWDRQNBNXLRHCM
+    properties:
+      mail:
+        debug: true
+
+fromMail:
+  addr: wangyuwei116@163.com
 
 server:
   port: 8000
   servlet:
     context-path: /demo
+

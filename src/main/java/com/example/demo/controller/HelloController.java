@@ -20,6 +20,6 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello() {
        // log.error("hello slf4j");
-        return "hello spring boot ";
+        return "hello spring boot 1";
     }
 }
